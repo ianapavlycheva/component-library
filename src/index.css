@@ -13,12 +13,16 @@ body {
 
 h1 {
   /* font-family: "Permanent Marker", cursive; */
-  font-size: 96px;
+  font-size: 46px;
 }
 
 h2 {
   /* font-family: "Permanent Marker", cursive; */
-  font-size: 44px;
+  font-size: 32px;
+}
+
+.badges {
+  margin-top: 16px;
 }
 
 /* h3 {

@@ -8,18 +8,18 @@ function App() {
         <h1>Component Library</h1>
         <h2>Badges</h2>
 
-      <div>
+      <div className='badges'>
         <Badge text="Badge" color="gray" shape="square"/>
-        <Badge text="Badge" color="red" />
-        <Badge text="Badge" color="yellow" />
-        <Badge text="Badge" color="green" />
-        <Badge text="Badge" color="blue" />
-        <Badge text="Badge" color="indigo" />
-        <Badge text="Badge" color="purple" />
-        <Badge text="Badge" color="pink" />
+        <Badge text="Badge" color="red" shape="square"/>
+        <Badge text="Badge" color="yellow" shape="square"/>
+        <Badge text="Badge" color="green" shape="square"/>
+        <Badge text="Badge" color="blue" shape="square"/>
+        <Badge text="Badge" color="indigo" shape="square"/>
+        <Badge text="Badge" color="purple" shape="square"/>
+        <Badge text="Badge" color="pink" shape="square"/>
       </div>
 
-      <div>
+      <div className='badges'>
       <Badge text="Badge" color="gray" shape="pill" />
       <Badge text="Badge" color="red" shape="pill" />
       <Badge text="Badge" color="yellow" shape="pill" />
