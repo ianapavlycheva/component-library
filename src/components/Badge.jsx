@@ -1,8 +1,8 @@
 // import React from "react";
 import "../styles/badge.css";
 
-const Badge = ({ text, color = "gray", shape ="square" }) => {
-  return <span className={`badge ${color} ${shape}`}>{text}</span>;
+const Badge = ({ children, color, shape, ...props}) => {
+  return <span className={`badge ${color} ${shape}`}>{children}</span>;
 };
 
 export default Badge;

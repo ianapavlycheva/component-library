@@ -9,26 +9,26 @@ function App() {
         <h2>Badges</h2>
 
       <div className='badges'>
-        <Badge text="Badge" color="gray" shape="square"/>
-        <Badge text="Badge" color="red" shape="square"/>
-        <Badge text="Badge" color="yellow" shape="square"/>
-        <Badge text="Badge" color="green" shape="square"/>
-        <Badge text="Badge" color="blue" shape="square"/>
-        <Badge text="Badge" color="indigo" shape="square"/>
-        <Badge text="Badge" color="purple" shape="square"/>
-        <Badge text="Badge" color="pink" shape="square"/>
+        <Badge color="gray" shape="square">Badge</Badge>
+        <Badge color="red" shape="square"> Badge </Badge>
+        <Badge color="yellow" shape="square"> Badge </Badge>
+        <Badge color="green" shape="square">Badge </Badge>
+        <Badge color="blue" shape="square">Badge </Badge>
+        <Badge color="indigo" shape="square">Badge </Badge>
+        <Badge color="purple" shape="square">Badge</Badge>
+        <Badge color="pink" shape="square">Badge </Badge>
       </div>
 
-      <div className='badges'>
-      <Badge text="Badge" color="gray" shape="pill" />
-      <Badge text="Badge" color="red" shape="pill" />
-      <Badge text="Badge" color="yellow" shape="pill" />
-      <Badge text="Badge" color="green" shape="pill" />
-      <Badge text="Badge" color="blue" shape="pill" />
-      <Badge text="Badge" color="indigo" shape="pill" />
-      <Badge text="Badge" color="purple" shape="pill" />
-      <Badge text="Badge" color="pink" shape="pill" />
-      </div>
+       <div className='badges'>
+        <Badge color="gray" shape="pill" >Badge</Badge>
+        <Badge color="red" shape="pill" >Badge</Badge>
+        <Badge color="yellow" shape="pill" >Badge</Badge>
+        <Badge color="green" shape="pill" >Badge</Badge>
+        <Badge color="blue" shape="pill" >Badge</Badge>
+        <Badge color="indigo" shape="pill" >Badge</Badge>
+        <Badge color="purple" shape="pill" >Badge</Badge>
+        <Badge color="pink" shape="pill" >Badge</Badge>
+       </div>
 
 
 
