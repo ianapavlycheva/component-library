@@ -1,5 +1,5 @@
 // import React from "react";
-import "../styles/cards.css";
+import "../styles/card.css";
 
 const Card = ({ title, description, variant = "default" }) => {
   return (

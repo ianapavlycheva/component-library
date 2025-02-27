@@ -1,5 +1,5 @@
 // import React from "react";
-import "../styles/banners.css";
+import "../styles/banner.css";
 
 const Banner = ({ icon, header, message, type = "info" }) => {
 

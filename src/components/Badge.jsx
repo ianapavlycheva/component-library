@@ -1,5 +1,5 @@
 // import React from "react";
-import "../styles/badges.css";
+import "../styles/badge.css";
 
 const Badge = ({ text, color = "gray", shape ="square" }) => {
   return <span className={`badge ${color} ${shape}`}>{text}</span>;

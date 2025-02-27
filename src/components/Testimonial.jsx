@@ -1,5 +1,5 @@
 // import React from "react";
-import "../styles/testimonials.css";
+import "../styles/testimonial.css";
 
 const Testimonial = ({ name, feedback, type = "quote" }) => {
   return (
